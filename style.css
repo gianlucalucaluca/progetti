@@ -165,18 +165,6 @@ h3 {
     clear: both;
 }
 
-.skill-list li:nth-child(odd) {
-    background-color: #f3f5fa;
-}
-
-.skill-list li:nth-child(even) {
-    background-color: #ffffff;
-}
-
-.skill-list li:first-child {
-    font-weight: bold;
-}
-
 .project:nth-of-type(odd) {
     background-color: #fbf8ef;
 }
@@ -258,14 +246,21 @@ table {
     border-collapse: collapse;
 }
 
-th, td { 
-    padding: 10px; 
+th,
+td {
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ece6d8;
 }
 
 th {
     color: hsl(220, 60%, 25%);
+}
+
+td p {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 caption {

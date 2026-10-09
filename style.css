@@ -263,6 +263,21 @@ td p {
     margin-bottom: 0;
 }
 
+.level-80 { width: 80%; }
+.level-65 { width: 65%; }
+
+.bar {
+    height: 10px;
+    background-color: #ece6d8;
+    border-radius: 5px;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: hsl(45, 90%, 50%);
+    border-radius: 5px;
+}
+
 caption {
     color: hsl(220, 30%, 40%);
     text-align: left;
